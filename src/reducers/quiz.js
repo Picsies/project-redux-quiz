@@ -4,16 +4,37 @@ import { createSlice } from "@reduxjs/toolkit";
 const questions = [
   {
     id: 1,
-    questionText: "Who set the Olympic record for the 100m dash in 2012?",
-    options: ["Usain Bolt", "Justin Gatlin", "Tyson Gay", "Asafa Powell"],
+    questionText: `In the movie"The Lion King," what is Simba's father's name?`,
+    options: ["Mufasa", "Scar", "Rafiki", "Zazu"],
     correctAnswerIndex: 0
   },
   {
     id: 2,
     questionText:
-      "When was Michael Phelps last named male World Swimmer of the Year?",
-    options: ["2012", "2014", "2016", "2018"],
+      "Which Disney princess is known for having a magical glass slipper?",
+    options: ["Cinderella", "Ariel", "Belle", "Mulan"],
+    correctAnswerIndex: 0
+  },
+  {
+    id: 3,
+    questionText:
+      `What is the name of the enchanted castle in "Beauty and the Beast"??`,
+    options: ["Beauty Castle", "Enchanted Castle", "Beast's Castle", "Crystal Castle"],
     correctAnswerIndex: 2
+  },
+  {
+    id: 4,
+    questionText:
+      `In "Frozen," what is Elsa's magical power?`,
+    options: ["Fire manipulation", "Ice and snow manipulation", "Telekinesis", "Shape-shifting"],
+    correctAnswerIndex: 1
+  },
+  {
+    id: 5,
+    questionText:
+      `In the movie "The Little Mermaid," what is the name of Ariel's best friend?`,
+    options: ["Flounder", "Sebastian", "Scuttle", "Triton"],
+    correctAnswerIndex: 0
   }
 ];
 
